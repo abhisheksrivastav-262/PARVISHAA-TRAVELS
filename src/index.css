@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  --color-forest: #087F5B;
+  --color-forest-dark: #064E3B;
+  --color-forest-deep: #032A20;
+  --color-emerald-accent: #10A878;
+  --color-gold: #D6B46A;
+  --color-gold-light: #F4E7C5;
+  --color-gold-dark: #A98534;
+  --color-navy: #102B46;
+  --color-navy-dark: #0A1B2C;
+  --color-ivory: #FAF9F4;
+  --color-ivory-warm: #F4F1E8;
+  --color-softgray: #F1F4F2;
+  --color-darktext: #17231F;
+  --font-heading: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  color: var(--color-darktext);
+  background-color: var(--color-ivory);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Custom luxury scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f4f2;
+}
+::-webkit-scrollbar-thumb {
+  background: #087F5B;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #064E3B;
+}
+
+/* Glassmorphism & premium card utilities */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.glass-dark {
+  background: rgba(10, 27, 44, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(214, 180, 106, 0.2);
+}
+
+.gold-border-glow {
+  box-shadow: 0 0 25px rgba(214, 180, 106, 0.18);
+}
+
+.luxury-card-shadow {
+  box-shadow: 0 10px 30px -5px rgba(8, 127, 91, 0.08), 0 4px 12px -2px rgba(16, 43, 70, 0.05);
+}

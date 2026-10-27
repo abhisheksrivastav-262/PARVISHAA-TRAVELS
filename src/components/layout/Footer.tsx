@@ -16,7 +16,7 @@ export const Footer: React.FC = () => {
             <div className="w-16 h-16 sm:w-20 sm:h-20 shrink-0 overflow-hidden rounded-xl shadow-lg bg-[#FAF9F4]">
               <img
                 src="/logo.png"
-                alt="Parvishaa Travels Emblem"
+                alt="Parvishaa Travel Emblem"
                 className="w-full h-full object-contain"
                 loading="lazy"
               />
@@ -60,13 +60,13 @@ export const Footer: React.FC = () => {
               <div className="w-16 h-16 rounded-lg overflow-hidden shrink-0 bg-[#FAF9F4] shadow-sm">
                 <img
                   src="/logo.png"
-                  alt="Parvishaa Travels Logo"
+                  alt="Parvishaa Travel Logo"
                   className="w-full h-full object-contain"
                 />
               </div>
               <div>
                 <span className="font-heading font-extrabold text-lg tracking-tight text-white block">
-                  PARVISHAA TRAVELS
+                  PARVISHAA TRAVEL
                 </span>
                 <span className="text-[11px] text-[#D6B46A] tracking-wider uppercase font-semibold">
                   Himalayan Chauffeur Service
@@ -262,7 +262,7 @@ export const Footer: React.FC = () => {
         {/* Bottom Bar: Copyright, Tagline & Legal */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-400">
           <p className="text-center sm:text-left">
-            &copy; {currentYear} <span className="text-white font-medium">Parvishaa Travels</span>. All rights reserved.
+            &copy; {currentYear} <span className="text-white font-medium">Parvishaa Travel</span>. All rights reserved.
           </p>
 
           <p className="text-center text-gray-400 text-[11px]">

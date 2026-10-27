@@ -72,19 +72,19 @@ export const Header: React.FC<HeaderProps> = ({ onOpenBookingModal }) => {
           <Link
             to="/"
             className="flex items-center gap-3 group focus:outline-none focus:ring-2 focus:ring-[#087F5B] rounded-lg p-1"
-            aria-label="Parvishaa Travels - Home"
+            aria-label="Parvishaa Travel - Home"
           >
             <div className="relative w-12 h-12 sm:w-14 sm:h-14 shrink-0 overflow-hidden bg-[#FAF9F4] group-hover:scale-105 transition-transform duration-300">
               <img
                 src="/logo.png"
-                alt="Parvishaa Travels Official Logo"
+                alt="Parvishaa Travel Official Logo"
                 className="w-full h-full object-contain"
                 loading="eager"
               />
             </div>
             <div className="flex flex-col">
               <span className="font-heading font-extrabold text-base sm:text-lg md:text-xl text-[#064E3B] tracking-tight leading-tight group-hover:text-[#087F5B] transition-colors">
-                PARVISHAA TRAVELS
+                PARVISHAA TRAVEL
               </span>
             </div>
           </Link>
@@ -187,7 +187,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenBookingModal }) => {
             <a
               href={`tel:${BUSINESS_INFO.phonePrimaryRaw}`}
               className="p-2 rounded-full text-[#087F5B] bg-[#087F5B]/10 hover:bg-[#087F5B]/20"
-              aria-label="Call Parvishaa Travels"
+              aria-label="Call Parvishaa Travel"
             >
               <Phone className="w-5 h-5" />
             </a>
@@ -212,10 +212,10 @@ export const Header: React.FC<HeaderProps> = ({ onOpenBookingModal }) => {
             {/* Mobile Branding Bar */}
             <div className="flex items-center gap-3 pb-5 mb-5 border-b border-gray-100">
               <div className="w-12 h-12 shrink-0 bg-[#FAF9F4]">
-                <img src="/logo.png" alt="Parvishaa Travels" className="w-full h-full object-contain" />
+                <img src="/logo.png" alt="Parvishaa Travel" className="w-full h-full object-contain" />
               </div>
               <div>
-                <p className="font-heading font-bold text-base text-[#064E3B]">Parvishaa Travels</p>
+                <p className="font-heading font-bold text-base text-[#064E3B]">Parvishaa Travel</p>
               </div>
             </div>
 

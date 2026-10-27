@@ -15,7 +15,7 @@ export const MobileStickyBar: React.FC<MobileStickyBarProps> = ({ onOpenBookingM
         <a
           href={`tel:${BUSINESS_INFO.phonePrimaryRaw}`}
           className="flex flex-col items-center justify-center py-1.5 px-2 rounded-xl bg-gray-50 border border-gray-200 text-[#064E3B] active:bg-gray-100 transition-colors"
-          aria-label="Call Parvishaa Travels"
+          aria-label="Call Parvishaa Travel"
         >
           <Phone className="w-4 h-4 text-[#087F5B]" />
           <span className="text-[11px] font-bold mt-0.5">Call Us</span>

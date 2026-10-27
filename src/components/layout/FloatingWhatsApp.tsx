@@ -10,7 +10,7 @@ export const FloatingWhatsApp: React.FC = () => {
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center gap-3 bg-[#087F5B] hover:bg-[#064E3B] text-white p-3.5 rounded-full shadow-2xl hover:shadow-[#087F5B]/30 border-2 border-white transition-all transform hover:scale-105"
-        aria-label="Direct WhatsApp Inquiry with Parvishaa Travels"
+        aria-label="Direct WhatsApp Inquiry with Parvishaa Travel"
       >
         <span className="relative flex h-3.5 w-3.5">
           <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>

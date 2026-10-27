@@ -15,8 +15,8 @@ export const DestinationsPage: React.FC<DestinationsPageProps> = ({
   return (
     <>
       <SEOHead
-        title="Explore Destinations in Dharamshala & Kangra Valley | Parvishaa Travels"
-        description="Discover McLeodganj, Bhagsu Nag, Naddi Sunset Point, HPCA Stadium, Kangra Fort, Palampur tea gardens, and Bir Billing paragliding with Parvishaa Travels."
+        title="Explore Destinations in Dharamshala & Kangra Valley | Parvishaa Travel"
+        description="Discover McLeodganj, Bhagsu Nag, Naddi Sunset Point, HPCA Stadium, Kangra Fort, Palampur tea gardens, and Bir Billing paragliding with Parvishaa Travel."
       />
 
       {/* Hero */}

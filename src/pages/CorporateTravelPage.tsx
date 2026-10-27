@@ -58,7 +58,7 @@ export const CorporateTravelPage: React.FC = () => {
 
   const handleWhatsAppCorporate = () => {
     const msg = [
-      `Hello Parvishaa Travels,`,
+      `Hello Parvishaa Travel,`,
       ``,
       `I would like to inquire about *Corporate Travel Services*.`,
       `🏢 *Company:* ${formData.companyName}`,
@@ -84,7 +84,7 @@ export const CorporateTravelPage: React.FC = () => {
   return (
     <>
       <SEOHead
-        title="Corporate & Executive Chauffeur Travel Dharamshala | Parvishaa Travels"
+        title="Corporate & Executive Chauffeur Travel Dharamshala | Parvishaa Travel"
         description="Professional chauffeur transportation for corporate executive retreats, guest pickups, and multi-vehicle conference logistics in McLeodganj & Dharamshala."
       />
 

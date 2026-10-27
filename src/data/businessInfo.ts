@@ -25,12 +25,12 @@ export interface BusinessDetails {
 }
 
 export const BUSINESS_INFO: BusinessDetails = {
-  name: "Parvishaa Travels",
+  name: "Parvishaa Travel",
   tagline: "Every Journey, A Beautiful Experience.",
   supportingHeadline: "Discover the Himalayas in Comfort.",
   supportingDescription:
-    "From airport pickups and comfortable hotel transfers to memorable Himalayan road trips, Parvishaa Travels helps you explore Dharamshala, McLeodganj, and beyond with personalized travel services.",
-  finalMessage: "Parvishaa Travels — Discover More. Travel Comfortably. Make Every Journey Count.",
+    "From airport pickups and comfortable hotel transfers to memorable Himalayan road trips, Parvishaa Travel helps you explore Dharamshala, McLeodganj, and beyond with personalized travel services.",
+  finalMessage: "Parvishaa Travel — Discover More. Travel Comfortably. Make Every Journey Count.",
   phonePrimary: "+91 98176 56360",
   phonePrimaryRaw: "+919817656360",
   phoneSecondary: "+91 93174 56360",

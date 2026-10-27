@@ -36,7 +36,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenBookingModal }) => {
     <>
       <SEOHead
         title="Luxury Taxi & Himalayan Chauffeur Services in Dharamshala & McLeodganj"
-        description="Parvishaa Travels offers premium taxi services, airport transfers, local sightseeing, and outstation chauffeur travel across Himachal Pradesh. Call +91 9817656360."
+        description="Parvishaa Travel offers premium taxi services, airport transfers, local sightseeing, and outstation chauffeur travel across Himachal Pradesh. Call +91 9817656360."
       />
 
       {/* Hero Section */}
@@ -233,7 +233,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenBookingModal }) => {
         </div>
       </section>
 
-      {/* Section H: Why Choose Parvishaa Travels? */}
+      {/* Section H: Why Choose Parvishaa Travel? */}
       <section className="py-20 sm:py-28 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
@@ -242,7 +242,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenBookingModal }) => {
               <div className="rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
                 <img
                   src="https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1200&q=80"
-                  alt="Dharamshala Mountain Vistas and Parvishaa Travels Chauffeur Journeys"
+                  alt="Dharamshala Mountain Vistas and Parvishaa Travel Chauffeur Journeys"
                   className="w-full h-[450px] object-cover"
                 />
               </div>
@@ -491,7 +491,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenBookingModal }) => {
             Your Next Himalayan Adventure Starts Here.
           </h2>
           <p className="text-sm sm:text-base md:text-lg text-emerald-100 max-w-2xl mx-auto mb-8 font-light">
-            Book your taxi with Parvishaa Travels today and explore Dharamshala, McLeodganj, and Himachal Pradesh with trusted comfort.
+            Book your taxi with Parvishaa Travel today and explore Dharamshala, McLeodganj, and Himachal Pradesh with trusted comfort.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

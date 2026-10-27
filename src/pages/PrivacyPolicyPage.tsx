@@ -7,8 +7,8 @@ export const PrivacyPolicyPage: React.FC = () => {
   return (
     <>
       <SEOHead
-        title="Privacy Policy | Parvishaa Travels"
-        description="Learn how Parvishaa Travels collects, uses, and safeguards information submitted via travel inquiry and booking forms."
+        title="Privacy Policy | Parvishaa Travel"
+        description="Learn how Parvishaa Travel collects, uses, and safeguards information submitted via travel inquiry and booking forms."
       />
 
       <section className="py-16 bg-[#064E3B] text-white">
@@ -18,7 +18,7 @@ export const PrivacyPolicyPage: React.FC = () => {
           </span>
           <h1 className="font-heading text-3xl sm:text-4xl font-extrabold">Privacy Policy</h1>
           <p className="text-xs sm:text-sm text-emerald-100 mt-2">
-            Last Updated: October 2026 &bull; Parvishaa Travels
+            Last Updated: October 2026 &bull; Parvishaa Travel
           </p>
         </div>
       </section>
@@ -26,7 +26,7 @@ export const PrivacyPolicyPage: React.FC = () => {
       <section className="py-16 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-gray-700 space-y-8 text-sm leading-relaxed">
           <div className="bg-[#FAF9F4] p-5 rounded-2xl border border-[#087F5B]/20 text-xs text-gray-600">
-            <strong>Note for Travelers:</strong> This Privacy Policy outlines how Parvishaa Travels collects, manages, and uses details provided when you request travel quotes, contact our team, or communicate with us on WhatsApp or phone.
+            <strong>Note for Travelers:</strong> This Privacy Policy outlines how Parvishaa Travel collects, manages, and uses details provided when you request travel quotes, contact our team, or communicate with us on WhatsApp or phone.
           </div>
 
           <div>
@@ -34,7 +34,7 @@ export const PrivacyPolicyPage: React.FC = () => {
               1. Information We Collect
             </h2>
             <p className="mb-2">
-              When submitting a travel inquiry or booking request with Parvishaa Travels, you may provide:
+              When submitting a travel inquiry or booking request with Parvishaa Travel, you may provide:
             </p>
             <ul className="list-disc pl-5 space-y-1 text-xs sm:text-sm">
               <li><strong>Contact Information:</strong> Your name, phone/WhatsApp number, and optional email address.</li>
@@ -61,7 +61,7 @@ export const PrivacyPolicyPage: React.FC = () => {
               3. Communication via Phone and WhatsApp
             </h2>
             <p>
-              By submitting your phone number via our booking widgets or clicking WhatsApp contact buttons, you consent to receiving operational messages and quotation details from Parvishaa Travels regarding your requested journey. We do not engage in unsolicited mass spam marketing.
+              By submitting your phone number via our booking widgets or clicking WhatsApp contact buttons, you consent to receiving operational messages and quotation details from Parvishaa Travel regarding your requested journey. We do not engage in unsolicited mass spam marketing.
             </p>
           </div>
 
@@ -91,7 +91,7 @@ export const PrivacyPolicyPage: React.FC = () => {
               For any questions regarding your data or this policy, please contact:
             </p>
             <div className="bg-gray-50 p-4 rounded-xl border border-gray-200 space-y-1 text-xs">
-              <p className="font-bold text-[#064E3B]">Parvishaa Travels</p>
+              <p className="font-bold text-[#064E3B]">Parvishaa Travel</p>
               <p>{BUSINESS_INFO.address.full}</p>
               <p>Primary Phone: {BUSINESS_INFO.phonePrimary}</p>
               <p>Secondary Phone: {BUSINESS_INFO.phoneSecondary}</p>

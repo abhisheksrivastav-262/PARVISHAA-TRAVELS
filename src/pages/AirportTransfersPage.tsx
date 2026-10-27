@@ -54,7 +54,7 @@ export const AirportTransfersPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeader
             eyebrow="Key Benefits"
-            title="Why Arrange Airport Transfers with Parvishaa Travels?"
+            title="Why Arrange Airport Transfers with Parvishaa Travel?"
             description="Kangra Gaggal Airport is located approximately 15 to 20 km from McLeodganj along mountain roads. A pre-arranged ride guarantees peace of mind."
           />
 

@@ -15,7 +15,7 @@ export const FAQ_DATA: FAQItem[] = [
   {
     id: "how-to-book",
     category: "Taxi Booking",
-    question: "How can I book a taxi with Parvishaa Travels?",
+    question: "How can I book a taxi with Parvishaa Travel?",
     answer:
       "You can send your booking inquiry directly through our online request form or connect with our team on WhatsApp / phone at +91 9817656360. Our team will verify your route, travel dates, passenger count, and vehicle preference, and share a prompt, clear confirmation with travel details.",
   },

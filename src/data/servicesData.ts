@@ -93,7 +93,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     shortDesc:
       "Thoughtfully paced mountain holidays crafted for children, parents, and seniors with maximum comfort.",
     fullDesc:
-      "Traveling with family requires relaxed schedules, clean vehicle interiors, gentle driving, and curated stops. Let Parvishaa Travels coordinate your multi-day itinerary with vehicles that keep everyone comfortable.",
+      "Traveling with family requires relaxed schedules, clean vehicle interiors, gentle driving, and curated stops. Let Parvishaa Travel coordinate your multi-day itinerary with vehicles that keep everyone comfortable.",
     image: "/images/places/triund-dharamshala.png",
     features: [
       "Spacious MPVs and multi-seat vehicles",
@@ -112,7 +112,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     shortDesc:
       "Discreet, punctual, and professional chauffeur services for executive offsites, delegates, and VIP guests.",
     fullDesc:
-      "Organizing an executive retreat, workshop, or visiting conference in Dharamshala? Parvishaa Travels provides executive sedan and MPV transportation with transparent billing and coordinated group logistics.",
+      "Organizing an executive retreat, workshop, or visiting conference in Dharamshala? Parvishaa Travel provides executive sedan and MPV transportation with transparent billing and coordinated group logistics.",
     image: "/images/fleet/parvishaa-taxi-valley-view.png",
     features: [
       "Professional, courteous chauffeurs",

@@ -28,7 +28,7 @@ export const ToursPage: React.FC<ToursPageProps> = ({ onOpenBookingModal }) => {
   return (
     <>
       <SEOHead
-        title="Family & Customized Himalayan Tour Packages | Parvishaa Travels"
+        title="Family & Customized Himalayan Tour Packages | Parvishaa Travel"
         description="Discover suggested mountain travel experiences from Dharamshala: family getaways, tea garden drives, paragliding excursions, and custom multi-day Himachal road circuits."
       />
 

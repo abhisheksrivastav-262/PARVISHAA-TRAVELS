@@ -15,11 +15,11 @@ export interface BookingInquiryData {
 }
 
 /**
- * Builds a properly formatted, URL-encoded WhatsApp inquiry message for Parvishaa Travels
+ * Builds a properly formatted, URL-encoded WhatsApp inquiry message for Parvishaa Travel
  */
 export function buildWhatsAppInquiryMessage(data: BookingInquiryData): string {
   const lines: string[] = [
-    `Hello Parvishaa Travels,`,
+    `Hello Parvishaa Travel,`,
     ``,
     `I would like to inquire about a taxi booking${data.serviceName ? ` for *${data.serviceName}*` : ""}.`,
     ``,
@@ -76,6 +76,6 @@ export function getGeneralWhatsAppUrl(
     : BUSINESS_INFO.whatsappPrimary;
   const defaultMessage =
     customPrompt ||
-    `Hello Parvishaa Travels! I am planning a journey in Dharamshala / McLeodganj and would like to inquire about taxi & travel services.`;
+    `Hello Parvishaa Travel! I am planning a journey in Dharamshala / McLeodganj and would like to inquire about taxi & travel services.`;
   return `https://wa.me/${number}?text=${encodeURIComponent(defaultMessage)}`;
 }

@@ -16,7 +16,7 @@ export const LocalSightseeingPage: React.FC<LocalSightseeingProps> = ({
   return (
     <>
       <SEOHead
-        title="Local Sightseeing Taxi McLeodganj & Dharamshala | Parvishaa Travels"
+        title="Local Sightseeing Taxi McLeodganj & Dharamshala | Parvishaa Travel"
         description="Customized day tours of Dalai Lama Temple, Bhagsu Falls, Naddi Sunset Point, HPCA Cricket Stadium, and tea gardens with experienced mountain chauffeurs."
       />
 

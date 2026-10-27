@@ -6,8 +6,8 @@ export const TermsConditionsPage: React.FC = () => {
   return (
     <>
       <SEOHead
-        title="Terms & Conditions | Parvishaa Travels"
-        description="Review the terms and conditions governing travel inquiries, booking confirmations, quotations, and schedules with Parvishaa Travels."
+        title="Terms & Conditions | Parvishaa Travel"
+        description="Review the terms and conditions governing travel inquiries, booking confirmations, quotations, and schedules with Parvishaa Travel."
       />
 
       <section className="py-16 bg-[#064E3B] text-white">
@@ -17,7 +17,7 @@ export const TermsConditionsPage: React.FC = () => {
           </span>
           <h1 className="font-heading text-3xl sm:text-4xl font-extrabold">Terms &amp; Conditions</h1>
           <p className="text-xs sm:text-sm text-emerald-100 mt-2">
-            Last Updated: October 2026 &bull; Parvishaa Travels
+            Last Updated: October 2026 &bull; Parvishaa Travel
           </p>
         </div>
       </section>
@@ -25,7 +25,7 @@ export const TermsConditionsPage: React.FC = () => {
       <section className="py-16 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-gray-700 space-y-8 text-sm leading-relaxed">
           <div className="bg-[#FAF9F4] p-5 rounded-2xl border border-[#087F5B]/20 text-xs text-gray-600">
-            <strong>Important Traveler Notice:</strong> Please review these conditions before reserving transportation. By requesting a ride or booking travel services with Parvishaa Travels, you agree to these operational terms.
+            <strong>Important Traveler Notice:</strong> Please review these conditions before reserving transportation. By requesting a ride or booking travel services with Parvishaa Travel, you agree to these operational terms.
           </div>
 
           <div>
@@ -42,7 +42,7 @@ export const TermsConditionsPage: React.FC = () => {
               2. Vehicle Preferences &amp; Allocations
             </h2>
             <p>
-              Vehicle choices (Sedan, SUV, Luxury MPV, Tempo Traveller) selected during the inquiry phase represent customer preferences. While every effort is made to allocate your requested model, Parvishaa Travels reserves the right to substitute an equivalent or superior vehicle category if required due to operational, mechanical, or mountain road accessibility reasons.
+              Vehicle choices (Sedan, SUV, Luxury MPV, Tempo Traveller) selected during the inquiry phase represent customer preferences. While every effort is made to allocate your requested model, Parvishaa Travel reserves the right to substitute an equivalent or superior vehicle category if required due to operational, mechanical, or mountain road accessibility reasons.
             </p>
           </div>
 
@@ -60,7 +60,7 @@ export const TermsConditionsPage: React.FC = () => {
               4. Accuracy of Customer-Provided Details
             </h2>
             <p>
-              Travelers are responsible for providing accurate pickup addresses, contact phone numbers, flight/train numbers, and luggage counts. Parvishaa Travels cannot be held liable for missed connections resulting from inaccurate customer-supplied timings or unreachable contact numbers.
+              Travelers are responsible for providing accurate pickup addresses, contact phone numbers, flight/train numbers, and luggage counts. Parvishaa Travel cannot be held liable for missed connections resulting from inaccurate customer-supplied timings or unreachable contact numbers.
             </p>
           </div>
 
@@ -69,7 +69,7 @@ export const TermsConditionsPage: React.FC = () => {
               5. Mountain Road Conditions, Weather &amp; Delays
             </h2>
             <p>
-              Travel in Himachal Pradesh is subject to dynamic mountain terrain, seasonal weather (heavy rainfall, landslides, snowfall), and hill traffic bottlenecks. Parvishaa Travels and its chauffeurs prioritize safety above all else. Drivers may take alternate routes or adjust driving pace in adverse conditions. We cannot be held liable for unavoidable delays caused by natural road blockages, administrative road closures, or force majeure events.
+              Travel in Himachal Pradesh is subject to dynamic mountain terrain, seasonal weather (heavy rainfall, landslides, snowfall), and hill traffic bottlenecks. Parvishaa Travel and its chauffeurs prioritize safety above all else. Drivers may take alternate routes or adjust driving pace in adverse conditions. We cannot be held liable for unavoidable delays caused by natural road blockages, administrative road closures, or force majeure events.
             </p>
           </div>
 
@@ -78,7 +78,7 @@ export const TermsConditionsPage: React.FC = () => {
               6. Schedule Modifications &amp; Cancellations
             </h2>
             <p>
-              If your flight schedule or travel dates change, please notify Parvishaa Travels as early as possible so we can attempt to reschedule your ride without disruption. Any specific cancellation conditions or token refunds will be confirmed directly during booking coordination.
+              If your flight schedule or travel dates change, please notify Parvishaa Travel as early as possible so we can attempt to reschedule your ride without disruption. Any specific cancellation conditions or token refunds will be confirmed directly during booking coordination.
             </p>
           </div>
 
@@ -96,7 +96,7 @@ export const TermsConditionsPage: React.FC = () => {
               8. Contact &amp; Clarifications
             </h2>
             <div className="bg-gray-50 p-4 rounded-xl border border-gray-200 space-y-1 text-xs">
-              <p className="font-bold text-[#064E3B]">Parvishaa Travels</p>
+              <p className="font-bold text-[#064E3B]">Parvishaa Travel</p>
               <p>{BUSINESS_INFO.address.full}</p>
               <p>Primary Phone: {BUSINESS_INFO.phonePrimary}</p>
               <p>Secondary Phone: {BUSINESS_INFO.phoneSecondary}</p>

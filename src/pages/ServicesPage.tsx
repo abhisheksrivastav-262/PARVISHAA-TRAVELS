@@ -17,7 +17,7 @@ export const ServicesPage: React.FC<ServicesPageProps> = ({ onOpenBookingModal }
   return (
     <>
       <SEOHead
-        title="Our Travel & Taxi Services | Parvishaa Travels McLeodganj & Dharamshala"
+        title="Our Travel & Taxi Services | Parvishaa Travel McLeodganj & Dharamshala"
         description="Explore our complete range of taxi and travel services: Gaggal airport transfers, hotel pickup, local McLeodganj sightseeing, outstation cabs, and custom family tours."
       />
 

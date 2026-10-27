@@ -107,7 +107,7 @@ export const TOURS_DATA: TourExperience[] = [
     shortDesc:
       "Personalized intercity road expedition connecting Dharamshala, Manali, Shimla, or Dalhousie.",
     fullDesc:
-      "Craft your multi-day dream road trip across Himachal Pradesh. Parvishaa Travels provides a dedicated vehicle and seasoned mountain chauffeur for the entire journey, ensuring unmatched flexibility, safety, and comfort.",
+      "Craft your multi-day dream road trip across Himachal Pradesh. Parvishaa Travel provides a dedicated vehicle and seasoned mountain chauffeur for the entire journey, ensuring unmatched flexibility, safety, and comfort.",
     image: "/images/places/dhauladhar-scenic-drive.png",
     suggestedDestinations: [
       "Dharamshala & McLeodganj",

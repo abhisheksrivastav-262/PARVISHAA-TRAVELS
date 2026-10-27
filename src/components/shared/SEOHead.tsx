@@ -8,7 +8,7 @@ interface SEOHeadProps {
 export const SEOHead: React.FC<SEOHeadProps> = ({ title, description }) => {
   useEffect(() => {
     // Update Document Title
-    document.title = `${title} | Parvishaa Travels`;
+    document.title = `${title} | Parvishaa Travel`;
 
     // Update Meta Description
     let metaDesc = document.querySelector('meta[name="description"]');

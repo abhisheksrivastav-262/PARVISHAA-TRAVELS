@@ -56,7 +56,7 @@ export const ContactPage: React.FC = () => {
 
   const handleSendViaWhatsApp = () => {
     const msg = [
-      `Hello Parvishaa Travels,`,
+      `Hello Parvishaa Travel,`,
       ``,
       `I am reaching out via your contact form.`,
       `👤 *Name:* ${formData.name}`,
@@ -78,8 +78,8 @@ export const ContactPage: React.FC = () => {
   return (
     <>
       <SEOHead
-        title="Contact Parvishaa Travels | Taxi Service McLeodganj & Dharamshala"
-        description="Call +91 9817656360 or +91 9317456360. Visit Parvishaa Travels at Mona Plaza Complex, Near ICICI Bank, McLeodganj, Dharamshala, Himachal Pradesh."
+        title="Contact Parvishaa Travel | Taxi Service McLeodganj & Dharamshala"
+        description="Call +91 9817656360 or +91 9317456360. Visit Parvishaa Travel at Mona Plaza Complex, Near ICICI Bank, McLeodganj, Dharamshala, Himachal Pradesh."
       />
 
       {/* Hero */}
@@ -98,7 +98,7 @@ export const ContactPage: React.FC = () => {
             Reach Out to Our Local Team
           </span>
           <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-white mb-6">
-            Contact Parvishaa Travels
+            Contact Parvishaa Travel
           </h1>
           <p className="text-base sm:text-lg text-emerald-100 max-w-2xl mx-auto leading-relaxed font-light">
             We are here to assist with taxi bookings, airport pickups, tour itineraries, or route planning across Dharamshala and Himachal Pradesh.

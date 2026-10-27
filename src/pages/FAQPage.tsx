@@ -33,7 +33,7 @@ export const FAQPage: React.FC = () => {
   return (
     <>
       <SEOHead
-        title="Frequently Asked Questions | Parvishaa Travels Taxi Services"
+        title="Frequently Asked Questions | Parvishaa Travel Taxi Services"
         description="Got questions about booking taxis, airport transfers, vehicle options, payment terms, or custom Himachal tours? Find answers here."
       />
 

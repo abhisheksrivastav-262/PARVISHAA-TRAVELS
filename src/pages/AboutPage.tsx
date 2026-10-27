@@ -25,8 +25,8 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onOpenBookingModal }) => {
   return (
     <>
       <SEOHead
-        title="About Us | Parvishaa Travels - Premium Himalayan Chauffeur Service"
-        description="Learn about Parvishaa Travels, our grounded local roots in McLeodganj & Dharamshala, our commitment to transparent communication, and our travel philosophy."
+        title="About Us | Parvishaa Travel - Premium Himalayan Chauffeur Service"
+        description="Learn about Parvishaa Travel, our grounded local roots in McLeodganj & Dharamshala, our commitment to transparent communication, and our travel philosophy."
       />
 
       {/* Hero Header */}
@@ -42,13 +42,13 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onOpenBookingModal }) => {
 
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="text-xs font-extrabold uppercase tracking-widest text-[#D6B46A] bg-[#D6B46A]/20 px-4 py-1.5 rounded-full inline-block mb-4 border border-[#D6B46A]/30">
-            About Parvishaa Travels
+            About Parvishaa Travel
           </span>
           <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-white mb-6">
             Every Journey Begins With Trust.
           </h1>
           <p className="text-base sm:text-lg text-emerald-100 max-w-2xl mx-auto leading-relaxed font-light">
-            Parvishaa Travels helps travelers arrange comfortable journeys from McLeodganj and Dharamshala to destinations across Himachal Pradesh and beyond.
+            Parvishaa Travel helps travelers arrange comfortable journeys from McLeodganj and Dharamshala to destinations across Himachal Pradesh and beyond.
           </p>
         </div>
       </section>
@@ -65,7 +65,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onOpenBookingModal }) => {
                 Rooted in the Mountains of McLeodganj &amp; Dharamshala
               </h2>
               <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-4">
-                Based out of the Mona Plaza Complex near ICICI Bank in McLeodganj, Parvishaa Travels was founded to provide visitors with a dependable, courteous, and comfortable alternative to unpredictable travel arrangements.
+                Based out of the Mona Plaza Complex near ICICI Bank in McLeodganj, Parvishaa Travel was founded to provide visitors with a dependable, courteous, and comfortable alternative to unpredictable travel arrangements.
               </p>
               <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-6">
                 Whether arriving for a peaceful spiritual retreat, an adventurous trek through Triund, or a relaxed family vacation through the tea gardens, we believe that how you travel shapes your memory of the Himalayas.
@@ -84,7 +84,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onOpenBookingModal }) => {
               <div className="rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
                 <img
                   src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80"
-                  alt="Scenic Himalayan Road Travel with Parvishaa Travels"
+                  alt="Scenic Himalayan Road Travel with Parvishaa Travel"
                   className="w-full h-[400px] object-cover"
                 />
               </div>

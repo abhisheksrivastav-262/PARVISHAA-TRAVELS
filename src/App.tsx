@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
-import { AnnouncementBar } from "./components/layout/AnnouncementBar";
 import { Header } from "./components/layout/Header";
 import { Footer } from "./components/layout/Footer";
 import { MobileStickyBar } from "./components/layout/MobileStickyBar";
@@ -40,9 +39,6 @@ export const App: React.FC = () => {
   return (
     <Router>
       <div className="min-h-screen flex flex-col bg-[#FAF9F4] text-[#17231F] selection:bg-[#087F5B] selection:text-white">
-        {/* Top Announcement Bar */}
-        <AnnouncementBar />
-
         {/* Global Navigation Header with Official Logo */}
         <Header onOpenBookingModal={() => handleOpenBookingModal()} />
 

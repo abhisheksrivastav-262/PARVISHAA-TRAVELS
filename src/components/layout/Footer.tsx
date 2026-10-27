@@ -13,11 +13,11 @@ export const Footer: React.FC = () => {
         {/* Top Brand & Callout Banner */}
         <div className="bg-[#064E3B] rounded-2xl p-6 sm:p-8 mb-12 border border-[#D6B46A]/30 shadow-xl flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-4 text-center md:text-left">
-            <div className="w-16 h-16 sm:w-20 sm:h-20 shrink-0 rounded-full overflow-hidden border-2 border-[#D6B46A] shadow-lg bg-white">
+            <div className="w-16 h-16 sm:w-20 sm:h-20 shrink-0 overflow-hidden rounded-xl shadow-lg bg-[#FAF9F4]">
               <img
                 src="/logo.png"
                 alt="Parvishaa Travels Emblem"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
                 loading="lazy"
               />
             </div>
@@ -57,11 +57,11 @@ export const Footer: React.FC = () => {
           {/* Column 1: Brand Info */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-full overflow-hidden border border-[#D6B46A] shrink-0 bg-white shadow-sm">
+              <div className="w-16 h-16 rounded-lg overflow-hidden shrink-0 bg-[#FAF9F4] shadow-sm">
                 <img
                   src="/logo.png"
                   alt="Parvishaa Travels Logo"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                 />
               </div>
               <div>

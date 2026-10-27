@@ -74,20 +74,17 @@ export const Header: React.FC<HeaderProps> = ({ onOpenBookingModal }) => {
             className="flex items-center gap-3 group focus:outline-none focus:ring-2 focus:ring-[#087F5B] rounded-lg p-1"
             aria-label="Parvishaa Travels - Home"
           >
-            <div className="relative w-11 h-11 sm:w-13 sm:h-13 shrink-0 rounded-full overflow-hidden shadow-sm border border-[#D6B46A]/50 bg-white group-hover:scale-105 transition-transform duration-300">
+            <div className="relative w-12 h-12 sm:w-14 sm:h-14 shrink-0 overflow-hidden bg-[#FAF9F4] group-hover:scale-105 transition-transform duration-300">
               <img
                 src="/logo.png"
                 alt="Parvishaa Travels Official Logo"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
                 loading="eager"
               />
             </div>
             <div className="flex flex-col">
               <span className="font-heading font-extrabold text-base sm:text-lg md:text-xl text-[#064E3B] tracking-tight leading-tight group-hover:text-[#087F5B] transition-colors">
                 PARVISHAA TRAVELS
-              </span>
-              <span className="text-[10px] sm:text-xs text-[#102B46]/70 font-medium tracking-wider uppercase">
-                Dharamshala &bull; McLeodganj
               </span>
             </div>
           </Link>
@@ -214,12 +211,11 @@ export const Header: React.FC<HeaderProps> = ({ onOpenBookingModal }) => {
           <div className="bg-white border-b border-gray-200 shadow-2xl max-h-[calc(100vh-110px)] overflow-y-auto px-5 py-6">
             {/* Mobile Branding Bar */}
             <div className="flex items-center gap-3 pb-5 mb-5 border-b border-gray-100">
-              <div className="w-12 h-12 rounded-full overflow-hidden border border-[#D6B46A] shadow-sm">
-                <img src="/logo.png" alt="Parvishaa Travels" className="w-full h-full object-cover" />
+              <div className="w-12 h-12 shrink-0 bg-[#FAF9F4]">
+                <img src="/logo.png" alt="Parvishaa Travels" className="w-full h-full object-contain" />
               </div>
               <div>
                 <p className="font-heading font-bold text-base text-[#064E3B]">Parvishaa Travels</p>
-                <p className="text-xs text-gray-500">Every Journey, A Beautiful Experience.</p>
               </div>
             </div>
 
